@@ -13,3 +13,4 @@ addons:
 script:
     - mkdir b && cd b && cmake -DCMAKE_BUILD_TYPE=Release ../
     - cmake --build .
+    - ./squco-test
