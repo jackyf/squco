@@ -1,0 +1,15 @@
+language: cpp
+dist: xenial
+compiler:
+    - clang
+os:
+    - linux
+addons:
+    apt:
+        packages:
+            - cmake
+            - qtbase5-dev
+
+script:
+    - mkdir b && cd b && cmake -DCMAKE_BUILD_TYPE=Release ../
+    - cd b && cmake --build .
