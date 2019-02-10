@@ -47,7 +47,7 @@ auto conn = squco::connectSlot(...);
 QObject::disconnect(conn);
 ```
 
-Naturally, `squco` always assumes Qt::QueuedConnection. 
+Naturally, `squco` always assumes `Qt::QueuedConnection`.
 
 **Not yet tested in production.** Reports welcome.
 
