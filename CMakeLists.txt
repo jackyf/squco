@@ -7,6 +7,6 @@ find_package(Qt5Test CONFIG REQUIRED)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(squco-test test.cpp squco.h)
+add_executable(squco-test test.cpp squco.hpp)
 target_link_libraries(squco-test Qt5::Core Qt5::Test)
 

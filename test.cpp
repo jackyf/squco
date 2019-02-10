@@ -1,4 +1,4 @@
-#include "squco.h"
+#include "squco.hpp"
 
 #include <QTest>
 #include <QThread>
