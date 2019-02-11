@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12.0)
-project(aproj)
+project(squco)
 
 set(CMAKE_AUTOMOC ON)
 find_package(Qt5Core CONFIG REQUIRED)
