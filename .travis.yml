@@ -1,0 +1,16 @@
+language: cpp
+dist: xenial
+compiler:
+    - clang
+    - gcc
+os: linux
+addons:
+    apt:
+        packages:
+            - cmake
+            - qtbase5-dev
+
+script:
+    - mkdir b && cd b && cmake -DCMAKE_BUILD_TYPE=Release ../
+    - cmake --build .
+    - ./squco-test
