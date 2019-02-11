@@ -1,6 +1,6 @@
 What is it?
 -----------
-**S**tatic **qu**eued **co**nnections for Qt signals.
+**S**tatic(ly-typed) **qu**eued **co**nnections for Qt signals.
 
 
 Why?
